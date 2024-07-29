@@ -2,7 +2,7 @@
 
 ## Description
 
-Code accompanying paper "Granularity is crucial when applying differential privacy to text: An investigation for neural machine translation".
+Code accompanying paper "Granularity is crucial when applying differential privacy to text: An investigation for neural machine translation" (https://arxiv.org/abs/2407.18789).
 We investigate training NMT at both the sentence and document levels with [differentially private stochastic gradient descent (DP-SGD)](https://arxiv.org/abs/1607.00133), analyzing the privacy/utility trade-off for both scenarios, and evaluating the risks of not using the appropriate privacy granularity in terms of leaking personally identifiable information (PII).
 The code is a fork of the [DP-NMT](https://github.com/trusthlt/dp-nmt) framework, which includes a [JAX](https://github.com/google/jax) and [Flax](https://github.com/google/flax) implementation of the DP-SGD algorithm for training neural machine translation models with differential privacy.
 
